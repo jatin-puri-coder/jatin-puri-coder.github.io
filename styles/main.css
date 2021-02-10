@@ -1,5 +1,5 @@
 body {
-    font-family: 'Buenard';font-size: 22px;
+    font-family: 'Buenard', sans-serif;font-size: 22px;
 }
 .topnav {background-color: darkcyan;
 overflow: hidden;}
@@ -20,3 +20,14 @@ overflow: hidden;}
     background-color:tan  ;
     color: white;
   }
+
+  h1 {
+text-align: center
+;font-weight:bold;}
+
+.title::after {content: ""; display: block; margin: 0 auto; width: 75%; padding-top:20px;
+    border-bottom: 5px solid teal}
+
+.title {color:tan ;}
+
+
