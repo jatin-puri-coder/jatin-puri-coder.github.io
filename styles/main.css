@@ -1,3 +1,22 @@
 body {
     font-family: 'Buenard';font-size: 22px;
 }
+.topnav {background-color: darkcyan;
+overflow: hidden;}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 26px;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color:white;
+    color: black;
+  }
+  .topnav a.active {
+    background-color:tan  ;
+    color: white;
+  }
