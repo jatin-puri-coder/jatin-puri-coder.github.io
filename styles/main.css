@@ -30,4 +30,8 @@ text-align: center
 
 .title {color:tan ;}
 
+article {margin-top: 40px;
+    margin-right: 50%;
+line-height: 30px;}
 
+.intro {display:block}
