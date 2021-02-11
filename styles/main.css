@@ -1,10 +1,10 @@
 body {
     font-family: 'Buenard', sans-serif;font-size: 22px;
 }
-.topnav {background-color: darkcyan;
+#topnav {background-color: darkcyan;
 overflow: hidden;}
 
-.topnav a {
+#topnav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -12,11 +12,11 @@ overflow: hidden;}
     font-size: 20px;
 }
 
-.topnav a:hover {
+#topnav a:hover {
     background-color:white;
     color: black;
   }
-  .topnav a.active {
+  #topnav a.active {
     background-color:tan  ;
     color: white;
   }
