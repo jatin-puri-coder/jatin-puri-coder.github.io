@@ -46,3 +46,48 @@ line-height: 30px;}
 
 #soundcloud {margin-left: 150px;}
 
+.split {
+    height: 100%;
+    width: 50%;
+    position:fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.right {
+    right: 0;}
+
+.left {
+    left: 0;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .vl {
+    border-left: 6px solid teal;
+    height: 500px;
+    position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 100;
+  }
+
+  .heading {background-color: teal; 
+    color: white; 
+    background-repeat: no-repeat; height: 50px; width:100px;
+}
+.blogs {
+    background-color: tan;
+    color: white;
+    background-repeat: no-repeat;
+    height: 100px; width: 300px;
+    text-align: center;
+    margin-top: 100px;
+  margin-left: 27%;
+}
