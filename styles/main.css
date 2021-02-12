@@ -42,10 +42,9 @@ line-height: 30px;}
 #mypic {margin: 10% 15% 0 0;
     border-radius: 20%;
     float: right;
-    max-width: 100%;
-    width: auto;
     height: 400px;
-    ;
+    width: auto;
+
 
     }
     
@@ -104,7 +103,7 @@ line-height: 30px;}
 }
 
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 768px)
 {
 
     .topnav .container, .topnav {
@@ -112,27 +111,42 @@ line-height: 30px;}
         text-align: center;
 
     }
-    .image {
-        width: 30%;
-        height: 30%;
+    #mypic {
+        width: 35%;
+        height: 35%;
     }
 
-  
+  .blogs {
+      width: 150px;
+      height: 150px;
+  }
+  }
 
 
 @media (min-width: 768px) {
     .container {
       width: 750px;
     }
-
+    .blogs {
+        width: 200px;
+        height: 100px;
+    }
   }
   @media (min-width: 992px) {
     .container {
       width: 970px;
     }
+    .blogs {
+        width: 250px;
+        height: 100px;
+    }
   }
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
+    }
+    .blogs {
+        width: 300px;
+        height: 100px;
     }
   }
