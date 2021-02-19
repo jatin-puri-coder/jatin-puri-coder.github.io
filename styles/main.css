@@ -3,6 +3,10 @@
 body {
     font-family: 'Buenard', sans-serif;font-size: 22px;
 }
+
+h4 {font-size:28px;
+color: teal;}
+h5 {font-size: x-large;}
 #topnav {background-color: darkcyan;
 overflow: hidden;}
 
@@ -97,18 +101,27 @@ overflow: auto;
     height: 100px; width: 300px;
     text-align: center;
     margin-top: 100px;
-  margin-left: 27%;
-  
-  
-  
+  margin-left: 27%; 
   
 }
 
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+
+}
+footer {
+margin: 80px 40px 50px;
+font-size: 15px;
+font-weight: 100;
+color: rgb(165, 163, 163);
+text-align: left;
+}
 
 @media only screen and (max-width: 768px)
 {
 
-    .topnav .container, .topnav {
+    .topnav {
         padding: 0;
         text-align: center;
 
