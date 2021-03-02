@@ -83,7 +83,7 @@ overflow: auto;
 
   .vl {
     border-left: 6px solid teal;
-    height: 800px;
+    height: 1000px;
     position: absolute;
   left: 50%;
   margin-left: -3px;
